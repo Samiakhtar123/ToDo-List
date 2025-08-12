@@ -12,7 +12,8 @@ function add(){
         inputs.value ="";
         newEle.querySelector("i").addEventListener("click" , remove);
         function remove(){
-            newEle.remove();
+            // newEle.remove();
+            newEle.style.textDecoration = 'strikethrough'
     
         }
     }
