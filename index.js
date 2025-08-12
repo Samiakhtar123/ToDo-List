@@ -13,6 +13,7 @@ function add(){
         newEle.querySelector("i").addEventListener("click" , remove);
         function remove(){
             newEle.remove();
+    
         }
     }
 }
